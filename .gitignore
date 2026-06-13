@@ -1,0 +1,40 @@
+# Секреты и конфиг
+.env
+
+# Базы данных SQLite
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# uv
+.uv/
+uv.lock
+
+# Кэш инструментов
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Локальные настройки агента
+.claude/
+
+# Рантайм-состояние vkbottle (Long Poll ts/сервер)
+.vkbottle/
